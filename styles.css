@@ -87,7 +87,7 @@ h2 {
   display: block;
   float: left;
   display: flex;
-  width: 42%;
+  width: 100%;
   flex-direction: row;
 }
 .champion {
@@ -163,7 +163,7 @@ h2 {
 .round-three .matchup {
   margin: 0;
   height: 60px;
-  padding: 130px 0;
+  padding: 130px 0 0 0;
 }
 .round-details {
   font-family: "Roboto Condensed", sans-serif;
@@ -247,11 +247,12 @@ h2 {
   -webkit-animation: pulse 0.5s;
   animation: pulse 0.5s;
 }
-.date {
+.desc {
   font-size: 10px;
   letter-spacing: 2px;
   font-family: "Istok Web", sans-serif;
-  color: #3f915f;
+  color: #202945;
+  text-transform: capitalize;
 }
 @media screen and (min-width: 981px) and (max-width: 1099px) {
   .container {
@@ -335,4 +336,22 @@ h2 {
 .pool {
   padding-left: 0;
   width: 49%;
+}
+
+.round .champ {
+  background-color: unset;
+  list-style-type: none;
+  font-size: 2rem;
+  text-align: center;
+}
+.golden {
+  color: #b8860b;
+}
+
+.silver {
+  color: #ffffffe3;
+}
+
+.matchup + .consolation {
+  padding-top: 71px;
 }
