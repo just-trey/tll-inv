@@ -171,7 +171,6 @@ h2 {
   color: #2c7399;
   text-transform: uppercase;
   text-align: center;
-  height: 40px;
 }
 .champion li,
 .round li {
@@ -328,4 +327,12 @@ h2 {
     margin: 5px 0 10px;
     font-size: 18px;
   }
+}
+.pools {
+  display: flex;
+  justify-content: space-between;
+}
+.pool {
+  padding-left: 0;
+  width: 49%;
 }
