@@ -120,8 +120,7 @@ h2 {
   width: 95%;
   width: 30.8333%\9;
 }
-.split-two {
-}
+
 .split-one .round {
   margin: 0 2.5% 0 0;
 }
@@ -339,7 +338,7 @@ h2 {
 }
 
 .round .champ {
-  background-color: unset;
+  background-color: #202945;
   list-style-type: none;
   font-size: 2rem;
   text-align: center;
