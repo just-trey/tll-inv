@@ -307,8 +307,11 @@ h3 {
   .hero p {
     font-size: 1em;
   }
+  .matchup {
+    padding: 10px 0 !important;
+  }
 }
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .split {
     width: 95%;
     margin: 25px 2.5%;
@@ -335,7 +338,7 @@ h3 {
     margin: 5px 0 10px;
     font-size: 18px;
   }
-}
+} */
 .pools {
   display: flex;
   justify-content: space-between;
@@ -352,11 +355,11 @@ h3 {
   text-align: center;
 }
 .golden {
-  color: #b8860b;
+  color: #daa520;
 }
 
 .silver {
-  color: #ffffffe3;
+  color: #cd7f32;
 }
 
 .matchup + .consolation {
