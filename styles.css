@@ -183,7 +183,7 @@ h3 {
 .round li {
   background-color: #fff;
   box-shadow: none;
-  opacity: 0.45;
+  opacity: 0.65;
 }
 .current li {
   opacity: 1;
@@ -345,7 +345,7 @@ h3 {
 }
 .pool {
   padding-left: 0;
-  width: 49%;
+  width: 100%;
 }
 
 .round .champ {
